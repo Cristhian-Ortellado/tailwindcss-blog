@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./tailwind.css" />
+    
     <title>Laralearn</title>
+    <script type="module" crossorigin src="/assets/main-408355cb.js"></script>
+    <link rel="stylesheet" href="/assets/index-ba5b5259.css">
   </head>
   <body class="flex h-screen flex-col bg-slate-100 dark:bg-slate-950">
     <header class="bg-white px-6 shadow dark:bg-slate-900">
@@ -50,26 +52,26 @@
           class="hidden text-sky-500 duration-200 hover:rotate-6 md:block"
           href="/"
         >
-          <img class="w-20" src="./public/assets/images/logo.png" alt="" />
+          <img class="w-20" src="/assets/logo-4e8fa4a2.png" alt="" />
         </a>
         <div class="-mr-4 flex items-center">
           <a href="/" class="duration-200 hover:rotate-6 md:hidden"
-            ><img class="w-20" src="./public/assets/images/logo.png" alt="" />
+            ><img class="w-20" src="/assets/logo-4e8fa4a2.png" alt="" />
           </a>
           <div class="ml-8 hidden space-x-8 md:flex">
-            <a class="px-3 py-2 text-sky-500" href="/"> Home </a>
+            <a
+              class="px-3 py-2 text-slate-600 transition-colors hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-500"
+              href="/"
+            >
+              Home
+            </a>
             <a
               class="px-3 py-2 text-slate-600 transition-colors hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-500"
               href="/about.html"
             >
               About
             </a>
-            <a
-              class="px-3 py-2 text-slate-600 transition-colors hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-500"
-              href="/blog.html"
-            >
-              Blog
-            </a>
+            <a class="px-3 py-2 text-sky-500" href="/blog.html"> Blog </a>
             <a
               class="px-3 py-2 text-slate-600 transition-colors hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-500"
               href="/contact.html"
@@ -207,7 +209,7 @@
           >
             <img
               class="h-6 w-6 rounded-full"
-              src="https://ui-avatars.com/api?name=Cristhian"
+              src="https://ui-avatars.com/api?name=Cristhian+Ortellado"
               alt="Cristhian"
             />
           </button>
@@ -217,7 +219,10 @@
         id="mobile-menu"
         class="hidden space-y-1 border-t pb-3 pt-2 dark:border-slate-500"
       >
-        <a href="/" class="block rounded-md bg-sky-500 px-3 py-2 text-white">
+        <a
+          href="/"
+          class="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white dark:text-slate-400 dark:hover:text-white"
+        >
           Home
         </a>
         <a
@@ -228,7 +233,7 @@
         </a>
         <a
           href="/blog.html"
-          class="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white dark:text-slate-400 dark:hover:text-white"
+          class="block rounded-md bg-sky-500 px-3 py-2 text-white"
         >
           Blog
         </a>
@@ -241,6 +246,11 @@
       </div>
     </header>
     <main class="flex-1 p-4">
+      <h1
+        class="mb-8 mt-4 text-center font-serif text-3xl font-extrabold text-sky-700"
+      >
+        Blog
+      </h1>
       <div
         class="max-2-6xl mx-auto mt-4 grid gap-4 md:grid-cols-2 lg:grid-cols-3"
       >
@@ -423,6 +433,86 @@
           </div>
         </article>
       </div>
+
+      <nav
+        class="mx-auto mt-4 flex max-w-6xl justify-between dark:text-slate-400"
+      >
+        <a
+          class="flex rounded bg-white px-3 py-2 shadow duration-300 hover:shadow-md active:shadow-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:active:bg-slate-900"
+          href="#"
+        >
+          <svg
+            class="mr-2 w-5"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
+            />
+          </svg>
+
+          Previous</a
+        >
+        <div class="hidden md:flex">
+          <a
+            class="rounded-l bg-white px-4 py-2 shadow duration-300 hover:shadow-md active:shadow-sm dark:bg-slate-900 dark:bg-slate-900 dark:hover:bg-slate-800 dark:active:bg-slate-950"
+            href=""
+            >1</a
+          >
+          <a class="rounded-l px-4 py-2" href="">2</a>
+          <a
+            class="rounded-l bg-white px-4 py-2 shadow duration-300 hover:shadow-md active:shadow-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:active:bg-slate-950"
+            href=""
+            >3</a
+          >
+          <a
+            class="rounded-l bg-white px-4 py-2 shadow duration-300 hover:shadow-md active:shadow-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:active:bg-slate-950"
+            href=""
+            >4</a
+          >
+          <a
+            class="rounded-l bg-white px-4 py-2 shadow duration-300 hover:shadow-md active:shadow-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:active:bg-slate-950"
+            href=""
+            >5</a
+          >
+          <a
+            class="rounded-l bg-white px-4 py-2 shadow duration-300 hover:shadow-md active:shadow-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:active:bg-slate-950"
+            href=""
+            >6</a
+          >
+          <a
+            class="rounded-l bg-white px-4 py-2 shadow duration-300 hover:shadow-md active:shadow-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:active:bg-slate-950"
+            href=""
+            >7</a
+          >
+        </div>
+        <a
+          class="flex rounded bg-white px-3 py-2 shadow duration-300 hover:shadow-md active:shadow-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:active:bg-slate-900"
+          href="#"
+          >Next
+          <svg
+            class="mr-2 w-5"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </a>
+      </nav>
     </main>
 
     <footer class="px-4 py-10">
@@ -497,7 +587,6 @@
         </div>
       </div>
     </footer>
-
-    <script type="module" src="./main.js"></script>
+    
   </body>
 </html>
